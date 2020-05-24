@@ -35,7 +35,7 @@ public class TestMain {
             int choice = user.menu();
             //选择是几 就可以调用对应的方法
             user.doOperation(bookList , choice);
-            System.out.println("删除成功！");
+            
         }
     }
 }
